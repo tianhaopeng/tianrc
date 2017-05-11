@@ -1,12 +1,12 @@
 #!/bin/bash
-echo "[config-lite-vim  -  Yifei Zhang, Sept 2015]"
+echo "[tianrc  -  Haopeng Tian, May 2017]"
 BASE_NAME=`basename \`pwd\``
-EXPECTED_DIR_NAME=config-lite-vim
+EXPECTED_DIR_NAME=tianrc
 echo -n "Checking conditions......"
 if [ "$BASE_NAME" == "$EXPECTED_DIR_NAME" ]; then
     echo "Correct"
 else
-    echo "Incorrect. Please cd into config-lite-vim directory"
+    echo "Incorrect. Please cd into tianrc directory"
     exit 0
 fi
 
